@@ -3,17 +3,9 @@ body {
 }
 
 main {
-    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;      
-    position: fixed;
-    top: 10px;                
-    left: 50%;                
-    transform: translateX(-50%); 
-    padding: 100px;
-    width: 50%;
-    box-sizing: border-box;   
+    padding-top: 10px;
 }
 
 #divider {
