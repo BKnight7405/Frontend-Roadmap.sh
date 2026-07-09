@@ -1,2 +1,1 @@
-# DatepickerUI
-A static datepicker UI that will be enhanced with Javascript later
+The collection of frontend projects I have done using https://roadmap.sh/projects. This is mainly to practice my HTML and CSS, but will later be used to practice with my Javascript as well.
