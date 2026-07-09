@@ -1,3 +1,7 @@
+body {
+    background-image: url(illustrationjpg.jpg);
+}
+
 main {
     height: auto;
     display: flex;
@@ -7,21 +11,62 @@ main {
     top: 10px;                
     left: 50%;                
     transform: translateX(-50%); 
-    padding: 10px;
+    padding: 100px;
     width: 50%;
     box-sizing: border-box;   
 }
 
-#input-container {
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    gap: 10px;
+#divider {
+    height: 10px;
 }
 
-.top {
+#container {
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+    display: block; 
+    align-items: flex-start; 
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+#date-input {
     font-size: 16px;
     padding: 5px;
     height: auto;
-    width: auto;
+    width: 487px;
+}
+
+#calender-header {
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(168, 165, 165);
+    font-size: 30px;
+}
+
+#right-arrow {
+    transform: rotate(180deg);
+}
+
+#dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 400px;
+}
+
+.date-cell {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.date-cell.header {
+    font-weight: bold;
 }
